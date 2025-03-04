@@ -79,8 +79,6 @@ function GameBoard() {
 			</div> 
 			<div className="board"> 
 				{ 
-					// cards component help in coverting the 
-					// data from array to visible data for screen 
 					cardsArray.map((item) => ( 
 						<Card 
 							item={item} 

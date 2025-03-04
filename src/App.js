@@ -1,9 +1,11 @@
  import "./App.css"; 
-import GameBoard from "./Components/GameBoard"; 
+// import GameBoard from "./Components/GameBoard"; 
+import Weather from "./Components/Weather";
 function App() { 
 	return ( 
 		<div className="App"> 
-			<GameBoard /> 
+			{/* <GameBoard />  */}
+			<Weather/>
 		</div> 
 	); 
 } 
